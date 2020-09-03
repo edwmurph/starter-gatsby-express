@@ -1,0 +1,37 @@
+{
+  "name": "starter-gatsby-express",
+  "private": true,
+  "description": "A minimal starter for Gatsby app with an expressjs server",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop -p 8001",
+    "start": "node server/index.js",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "axios": "0.20.0",
+    "bootstrap": "4.5.2",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "gatsby": "2.24.52",
+    "gatsby-plugin-nodejs": "0.7.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@edwmurph/eslint-config": "0.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edwmurph/starter-gatsby-express"
+  },
+  "bugs": {
+    "url": "https://github.com/edwmurph/starter-gatsby-express/issues"
+  }
+}
