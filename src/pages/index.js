@@ -6,8 +6,14 @@ const Home = () => {
 
   return (
     <div>
-      <h1>data: {data}</h1>
-      <h1>error: {error && error.toString()}</h1>
+      <h1>
+        data:
+        {data}
+      </h1>
+      <h1>
+        error:
+        {error && error.toString()}
+      </h1>
     </div>
   );
 };
